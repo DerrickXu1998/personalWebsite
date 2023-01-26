@@ -22,6 +22,7 @@
   
   .headingMd {
     font-size: 1.2rem;
+    width: 1500px;
     line-height: 1.5;
   }
   
@@ -48,5 +49,10 @@
   }
   
   .lightText {
+    color: #666;
+  }
+
+  .insideButton {
+    font-size: 0.25 rem;
     color: #666;
   }

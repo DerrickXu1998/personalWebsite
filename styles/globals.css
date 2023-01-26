@@ -36,3 +36,39 @@ button {
   padding: 0.5rem 1rem;
   font-weight: bold;
 }
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0.2;
+  transition: transform 50ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+.insideButton {
+  font-size: 0.25 rem;
+  color: #666;
+}
