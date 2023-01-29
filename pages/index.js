@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import styles from "/Users/derrickxu/Repo/nextjs-blog/components/layout.module.css";
+import styles from "../components/layout.module.css";
 
 import Link from "next/link";
 import Date from "../components/date";
@@ -11,12 +11,12 @@ import { getSortedPostsData } from "../lib/posts";
 import { ThemeProvider } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 
-import awsconfig from "../src/aws-exports.js";
+// import awsconfig from "../src/aws-exports.js";
 
 import "@aws-amplify/ui-react/styles.css";
 import { studioTheme, View, NavBar, HeroLayout1 } from "../src/ui-components";
 <NavBar />;
-Amplify.configure(awsconfig);
+// Amplify.configure(awsconfig);
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
