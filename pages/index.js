@@ -11,15 +11,10 @@ import { getSortedPostsData } from "../lib/posts";
 import { ThemeProvider } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 
-import awsconfig from "/Users/derrickxu/Repo/nextjs-blog/src/aws-exports.js";
+import awsconfig from "../src/aws-exports.js";
 
 import "@aws-amplify/ui-react/styles.css";
-import {
-  studioTheme,
-  View,
-  NavBar,
-  HeroLayout1,
-} from "/Users/derrickxu/Repo/nextjs-blog/src/ui-components";
+import { studioTheme, View, NavBar, HeroLayout1 } from "../src/ui-components";
 <NavBar />;
 Amplify.configure(awsconfig);
 
