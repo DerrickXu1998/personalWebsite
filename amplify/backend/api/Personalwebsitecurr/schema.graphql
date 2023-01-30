@@ -1,8 +1,0 @@
-type LandingCard @model @auth(rules: [{allow: public}]) {
-  id: ID!
-  Header: String
-  Headline: String
-  Content: String
-  Button: String
-  image: String
-} 
