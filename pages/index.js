@@ -31,30 +31,25 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <NavBar marginTop={50} width={"100vw"} />
         <title>{siteTitle}</title>
       </Head>
       {/* <ThemeProvider theme={studioTheme}></ThemeProvider> */}
       <section className={utilStyles.headingMd}>
+        <p>Hello I am Derrick Xu!</p>
+        <p> I am a software engineer based out of New York City.</p>
         <p>
-          Hi my name is Derrick Xu. A passionate software engineer based out of
-          NYC!
+          With an interdisciplinary background, I am passionate about
+          integrating use of technology into our everyday lives.
         </p>
         <p>
-          {" "}
-          I am interested in topics of data modeling, NLP and of software
-          engineering.
+          You can find me dabbling into the latest topic in machine learning.
         </p>
         <p>
-          This is my personal home page to record my thoughts, work and
-          interests!
-        </p>
-        <p>
-          I also love to provide career advice to people who are interested in
-          Tech!
+          My area of interests specifically derive in the topics of natural
+          language processing and finance.
         </p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -67,7 +62,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
 
       {/* <section className={utilStyles.insideButton}>
         <div>
