@@ -31,7 +31,6 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <NavBar marginTop={50} width={"100vw"} />
         <title>{siteTitle}</title>
       </Head>
       {/* <ThemeProvider theme={studioTheme}></ThemeProvider> */}
